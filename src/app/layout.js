@@ -1,0 +1,12 @@
+export const metadata = {
+  title: 'Befood Sosmed Monitoring',
+  description: 'Dashboard monitoring sosial media Befood',
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="id">
+      <body style={{ margin: 0, padding: 0 }}>{children}</body>
+    </html>
+  )
+}
